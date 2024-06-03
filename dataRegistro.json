@@ -1,0 +1,11 @@
+{
+  "register" : [ {
+    "rioId" : 147,
+    "rioName" : "Amazonas",
+    "sensorId" : 401,
+    "sensorModelo" : "Modelo 1",
+    "sensorStatus" : "ATIVO",
+    "sensorLatitude" : 1232132.4,
+    "sensorLongitude" : 3.21321312E8
+  } ]
+}

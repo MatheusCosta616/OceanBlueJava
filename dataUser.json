@@ -1,0 +1,15 @@
+{
+  "users" : [ {
+    "userId" : 538,
+    "userEmail" : "roberto@gmail.com",
+    "userPassword" : 123,
+    "userName" : "Roberto",
+    "Data de cadastro" : "2024-06-03",
+    "assinatura" : {
+      "assinaturaId" : 383,
+      "tipoDeAssinatura" : "PREMIUM",
+      "dataInicio" : "2024-06-03",
+      "dataFim" : "2025-06-03"
+    }
+  } ]
+}
