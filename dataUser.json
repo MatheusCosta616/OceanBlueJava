@@ -2,14 +2,14 @@
   "users" : [ {
     "userId" : 538,
     "userEmail" : "roberto@gmail.com",
-    "userPassword" : 123,
-    "userName" : "Roberto",
+    "userPassword" : 234,
+    "userName" : "Roberto Gomes",
     "Data de cadastro" : "2024-06-03",
     "assinatura" : {
-      "assinaturaId" : 383,
-      "tipoDeAssinatura" : "PREMIUM",
-      "dataInicio" : "2024-06-03",
-      "dataFim" : "2025-06-03"
+      "assinaturaId" : 35,
+      "tipoDeAssinatura" : "ESTUDANTE",
+      "dataInicio" : "2024-06-04",
+      "dataFim" : "2025-06-04"
     }
   } ]
 }

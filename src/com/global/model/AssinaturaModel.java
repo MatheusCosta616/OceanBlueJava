@@ -19,6 +19,7 @@ public class AssinaturaModel {
         this.dataFim = dataInicio.plusYears(1);
     }
 
+
     public int getAssinaturaId() {
         return assinaturaId;
     }

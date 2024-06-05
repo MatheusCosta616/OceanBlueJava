@@ -1,11 +1,14 @@
 {
   "register" : [ {
-    "rioId" : 147,
+    "registerId" : 272,
     "rioName" : "Amazonas",
-    "sensorId" : 401,
-    "sensorModelo" : "Modelo 1",
-    "sensorStatus" : "ATIVO",
-    "sensorLatitude" : 1232132.4,
-    "sensorLongitude" : 3.21321312E8
+    "sensorId" : 782,
+    "sensorModelo" : "MODELO 1",
+    "sensorStatus" : "funcionando",
+    "sensorLatitude" : -3.4657,
+    "sensorLongitude" : -62.2159,
+    "phLevel" : 6.8,
+    "dissolvedOxygenLevel" : 4.2,
+    "turbidityLevel" : 8.5
   } ]
 }

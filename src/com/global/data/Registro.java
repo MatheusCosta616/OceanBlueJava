@@ -2,13 +2,23 @@ package com.global.data;
 
 import com.global.model.SensorModel;
 
+import java.util.Random;
+
 public class Registro extends SensorModel {
-    public Registro( String rioName, String sensorModelo, String sensorStatus, Float sensorLatitude, Float sensorLongitude) {
-        super(rioName, sensorModelo, sensorStatus, sensorLatitude, sensorLongitude);
+    private int registerId;
+    Random random = new Random();
+
+    public int getRegisterId() {
+        return registerId;
     }
 
-    public static void main(String[] args) {
-        Registro registro = new Registro("Amazonas", "Modelo 1", "SCANEANDO", 232323.323232F, 32323.323232F);
-        System.out.println(registro.getRioId());
+    public void setRegisterId(int registerId) {
+        this.registerId = registerId;
+    }
+
+    public Registro(String rioName, String sensorModelo, String sensorStatus, Float sensorLatitude, Float sensorLongitude,
+                    float phLevel, float dissolvedOxygenLevel, float turbidityLevel) {
+        super(rioName, sensorModelo, sensorStatus, sensorLatitude, sensorLongitude, phLevel, dissolvedOxygenLevel, turbidityLevel);
+        this.registerId = random.nextInt(1000);
     }
 }
